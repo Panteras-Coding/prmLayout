@@ -5,24 +5,6 @@ body {
     background: #fafafa;
 }
 
-.profilePic{
-  width: 100px;
-  margin-top: 20px;
-  margin-left: 75px;
-  border-radius: 50%;
-}
-
-.panterasLogo{
-  margin-top: 15%;
-  margin-left: 27%;
-  margin-bottom: 20%;
-  width: 90px;
-}
-
-.minSidebar{
-  background-color: #144184;
-}
-
 a,
 a:hover,
 a:focus {
@@ -31,98 +13,51 @@ a:focus {
     transition: all 0.3s;
 }
 
-.navbar {
-    padding: 15px 10px;
-    background: #fff;
-    border: none;
-    border-radius: 0;
-    margin-bottom: 40px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.navIcon{
-  margin-left: 20px;
-  margin-right: 20px;
-  font-size: 20px;
-}
-
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
 
+.profilePic{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+  
+.panterasLogo{
+    width: 90px;
+    float: right;
+}
+
+.navIcon{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
 #sidebar {
-    width: 250px;
+    width: 270px;
     position: fixed;
     top: 0;
-    left: -250px;
+    left: 0;
     height: 100vh;
     z-index: 999;
-    background: #145384;
+    background: #272343;
     color: #fff;
     transition: all 0.3s;
     overflow-y: scroll;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
-}
-
-#sidebar.active {
-    left: 0;
-}
-
-#dismiss {
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-    background: #145384;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-#dismiss:hover {
-    background: #fff;
-    color: #185e95;
-}
-
-.overlay {
-    display: none;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.7);
-    z-index: 998;
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
-}
-
-.overlay.active {
-    display: block;
-    opacity: 1;
-}
-
-.btn-info{
-  color: black;
-  background-color: white;
-  border-color: transparent;
-}
-
-.btn-info:hover{
-  background-color: #145384;
-  border-color: #145384;
+    border-radius: 4%;
 }
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #145384;
+    background: #272343;
 }
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #145384;
+    border-bottom: 1px solid #272343;
 }
 
 #sidebar ul p {
@@ -134,37 +69,21 @@ a:focus {
 
 #sidebar ul li a {
     padding: 10px;
-    font-size: 1.1em;
+    font-size: 1rem;
     display: block;
+    margin-top: 20px;
 }
 
 #sidebar ul li a:hover {
-    color:#145384;
+    color: #272343;
     background: #fff;
 }
 
-#sidebar ul li.active>a,
-a[aria-expanded="true"] {
-    color: #fff;
-    background: #145384;
-}
-
-a[data-toggle="collapse"] {
-    position: relative;
-}
-
-.dropdown-toggle::after {
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-}
-
-ul ul a {
-    font-size: 0.9em !important;
-    padding-left: 30px !important;
-    background: #145384;
+.CTAs{
+    background-color: #303f5c;
+    border-radius: 8%;
+    margin: 90px 15px 0 15px;
+    
 }
 
 ul.CTAs {
@@ -172,8 +91,8 @@ ul.CTAs {
 }
 
 ul.CTAs a {
-    text-align: center;
-    font-size: 0.9em !important;
+    text-align: left;
+    font-size: 0.8em !important;
     display: block;
     border-radius: 5px;
     margin-bottom: 5px;
@@ -181,20 +100,6 @@ ul.CTAs a {
 
 a.article,
 a.article:hover {
-    background: #145384 !important;
+    background: #383e56 !important;
     color: #fff !important;
-}
-
-/* ---------------------------------------------------
-    CONTENT STYLE
------------------------------------------------------ */
-
-#content {
-    width: 100%;
-    padding: 20px;
-    min-height: 100vh;
-    transition: all 0.3s;
-    position: absolute;
-    top: 0;
-    right: 0;
 }
