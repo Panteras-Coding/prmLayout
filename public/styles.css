@@ -19,14 +19,21 @@ a:focus {
 
 .profilePic{
     width: 100px;
-    margin-top: 20px;
     margin-left: 80px;
     border-radius: 50%;
 }
-  
+
 .panterasLogo{
     width: 90px;
     float: right;
+    margin-right: 20px;
+}
+
+.btn{
+  margin-left: 200px;
+  margin-top: 5px;
+  color: white;
+  background-color: #272343;
 }
 
 .navIcon{
@@ -79,23 +86,62 @@ a:focus {
     background: #fff;
 }
 
+#sidebar.active,
+#sidebar.active a {
+  font-size: 0;
+  transition-duration: 0.4s;
+}
+
+#sidebar.active{
+  max-width: 90px;
+  min-width: 90px;
+}
+
+#sidebar.active .btn{
+  margin-left: 25px;
+}
+
+#sidebar.active .navIcon{
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+#sidebar.active .profilePic {
+  width: 70px;
+  margin-left: 8px;
+  margin-top: 20px;
+}
+
+#sidebar.active .panterasLogo{
+  position: relative;
+  left: 20px;
+  width: 60px;
+}
+
+#sidebar.active .CTAs{
+  background: rgba(0,0,0,0);
+  color: #272343;
+}
+
 .CTAs{
     background-color: #303f5c;
-    border-radius: 8%;
-    margin: 90px 15px 0 15px;
-    
+    border-radius: 7%;
+    margin: 60px 15px 0 15px;
+    padding-top: 10px;
+    padding-bottom: 1px;
 }
 
 ul.CTAs {
     padding: 20px;
 }
 
-ul.CTAs a {
+.CTAs a {
     text-align: left;
     font-size: 0.8em !important;
     display: block;
     border-radius: 5px;
     margin-bottom: 5px;
+    margin-left: 20px;
 }
 
 a.article,
