@@ -1,9 +1,13 @@
 import React from "react";
 import Sidebar from "./Sidebar";
+import General from "./General";
 
 function App() {
   return (
-    <Sidebar />
+    <div>
+      <Sidebar />
+      <General />
+    </div>
   );
 }
 

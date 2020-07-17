@@ -4,7 +4,7 @@ function Sidebar(){
   return <div className="wrapper">
   <nav id="sidebar">
 
-    <button type="button" id="sidebarCollapse" className="btn">
+    <button type="button" id="sidebarCollapse" className="btn boton">
       <i className="fas fa-bars"></i>
     </button>
     <ul className="list-unstyled components">
