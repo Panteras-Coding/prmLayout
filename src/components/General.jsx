@@ -1,5 +1,5 @@
 import React from "react";
-import TopGen from "./GeneralComponents/Top";
+import TopGen from "./GeneralComponents/TopGen";
 import Interactividad from "./GeneralComponents/Interactividad";
 import Feed from "./GeneralComponents/Feed";
 
@@ -10,5 +10,7 @@ function General(){
     <Feed />
   </div>
 }
+
+
 
 export default General;

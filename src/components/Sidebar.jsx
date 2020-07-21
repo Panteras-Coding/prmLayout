@@ -1,32 +1,46 @@
-import React from "react";
+import React, {useState} from "react";
+import {Link} from 'react-router-dom';
 
 function Sidebar(){
+
+  const sidebarStyle = {
+    color: "white",
+    textDecoration: "none"
+  }
+
   return <div className="wrapper">
   <nav id="sidebar">
-
-    <button type="button" id="sidebarCollapse" className="btn boton">
-      <i className="fas fa-bars"></i>
-    </button>
-    <ul className="list-unstyled components">
+    <div className="top-sidebar">
+      <button type="button" id="sidebarCollapse" className="btn boton">
+        <i className="fas fa-bars"></i>
+      </button>
       <img src="Images/profile.png" alt="profilePic" className="profilePic"></img>
       <p>Miguel Richter</p>
-      <li>
-        <a href="#"><i className="fas navIcon fa-th-large"></i>General</a>
-        <a href="#"><i className="fas navIcon fa-boxes"></i>Recursos Materiales</a>
-        <a href="#"><i className="fas navIcon fa-wallet"></i>Recursos Financieros</a>
-        <a href="#"><i className="fas navIcon fa-users-cog"></i>Recursos Humanos</a>
-        <a href="#"><i className="fas navIcon fa-chalkboard-teacher"></i>Espacios de Trabajo</a>
-      </li>
-    </ul>
+      <ul className="list-unstyled components">
+        <Link style={sidebarStyle} to="/">
+          <li><i className="fas navIcon fa-th-large"></i>General</li>
+        </Link>
+        <Link style={sidebarStyle} to="materialresources">
+          <li><i className="fas navIcon fa-boxes"></i>Recursos Materiales</li>
+        </Link>
+        <Link style={sidebarStyle}>
+          <li><i className="fas navIcon fa-wallet"></i>Recursos Financieros</li>
+        </Link>
+        <Link style={sidebarStyle}>
+          <li><i className="fas navIcon fa-users-cog"></i>Recursos Humanos</li>
+        </Link>
+        <Link style={sidebarStyle}>
+          <li><i className="fas navIcon fa-chalkboard-teacher"></i>Espacios de Trabajo</li>
+        </Link>
+      </ul>
+    </div>
 
     <div className="CTAs">
+      <img src="Images/logo-white.png" alt="panterasLogo" className="panterasLogo"></img>
       <ul className="list-unstyled">
-        <li>
-          <img src="Images/logo-white.png" alt="panterasLogo" className="panterasLogo"></img>
-        </li>
-          <a href="#">Aviso legal</a>
-          <a href="#">Políticas</a>
-          <a href="#">Contacto</a>
+        <li>Aviso legal</li>
+        <li>Políticas</li>
+        <li>Contacto</li>
       </ul>
     </div>
 

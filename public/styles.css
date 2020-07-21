@@ -7,17 +7,9 @@ body {
     background: #fafafa;
 }
 
-a,
-a:hover,
-a:focus {
-    color: inherit;
-    text-decoration: none;
-    transition: all 0.3s;
-}
-
 .profilePic{
     display: block;
-    width: 50%;
+    width: 45%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
@@ -68,34 +60,27 @@ a:focus {
     border-bottom: 1px solid #343350;
 }
 
-#sidebar ul p {
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    margin-bottom: 25px;
+#sidebar p{
+  text-align: center;
+  margin-top: 20px;
 }
 
-#sidebar ul li a {
+.top-sidebar ul li {
     padding: 10px;
     font-size: 0.85rem;
     display: block;
     margin-top: 20px;
 }
 
-#sidebar ul li a:hover {
-    color: #343350;
-    background: #fff;
-}
-
-#sidebar.active,
-#sidebar.active a {
+#sidebar.active{
   font-size: 0;
   transition-duration: 0.4s;
-}
-
-#sidebar.active{
   max-width: 90px;
   min-width: 90px;
+}
+
+#sidebar.active li{
+  font-size: 0;
 }
 
 #sidebar.active .btn{
@@ -110,7 +95,7 @@ a:focus {
 #sidebar.active .profilePic {
   width: 70px;
   margin-left: 8px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 #sidebar.active .panterasLogo{
@@ -136,18 +121,12 @@ ul.CTAs {
     padding: 20px;
 }
 
-.CTAs a {
+.CTAs li {
     text-align: left;
     font-size: 0.75em !important;
     display: block;
     border-radius: 5px;
     margin: 5px 0 5px 20px;
-}
-
-a.article,
-a.article:hover {
-    background: #343350 !important;
-    color: #fff !important;
 }
 
 /* -------------
@@ -377,3 +356,21 @@ input[type=text], select {
   margin-right: 10px;
   margin-top: 2px;
 }
+
+/* -------------
+Recursos Materiales
+------------- */
+
+.topMR h3{
+  width: 20%;
+}
+
+#PrTable, #PerTable{
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.dropdown-menu label{
+  margin-right: 10px;
+}
+
