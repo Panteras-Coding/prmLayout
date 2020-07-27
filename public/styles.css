@@ -5,6 +5,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
+    color: #545454;
 }
 
 .profilePic{
@@ -374,3 +375,9 @@ Recursos Materiales
   margin-right: 10px;
 }
 
+/*Tabla*/
+
+.tableMatRes{
+  margin-top: 25px;
+  margin-right: 25px;
+}
