@@ -30,11 +30,11 @@ function FeedField(props){
         <h6 className="topSectionStyle1">Nombre</h6>
         <h6 className="topSectionStyle2">{props.funcion}</h6>
       </div>
-      <p>Área: </p>
-      <p>Motivo: </p>
-      <p>Fecha: </p>
-      <p>Cantidad: </p>
-      <p>Recurso: </p>
+      <p>Área: Proyectos</p>
+      <p>Motivo: Prestamo</p>
+      <p>Fecha: Hoy</p>
+      <p>Cantidad: 3</p>
+      <p>Recurso: Matracas</p>
     </div>
     }
 
