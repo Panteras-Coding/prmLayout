@@ -381,3 +381,67 @@ Recursos Materiales
   margin-top: 25px;
   margin-right: 25px;
 }
+/*Modal*/
+
+.modal{
+  padding-top: 50px;
+  
+}
+.modal-header {
+  border-bottom: 0 none;
+  background-color: #eceaea;
+  color: #dfdfdf;
+  height: 59px;
+}
+.modal-body{
+height: 400px;
+}
+.modal-footer{
+  padding-top: 280px;
+  border-top: 1px solid white;
+}
+/*Settings General*/
+  .nav-item{
+      color:grey;
+      padding-left: 20px;
+     padding-right: 20px;
+     font-size: 15px;
+  }
+  .nav-item:hover {
+      color: #a6a6a6;
+  }
+  #nav-conf-tab{
+    font-size: 17px;
+    width: 200px;
+    
+    
+  }
+  .headernombre{
+    margin-right: 30px;
+    margin-left: 30px;
+    height: 10px;
+    font-size: 10px;
+  }
+  .headertipo{
+    margin-right: 30px;
+    margin-left: 300px;
+    height: 10px;
+    font-size: 10px;
+  }
+  .headercolor{
+    margin-right: 20px;
+    margin-left: 100px;
+    height: 10px;
+    font-size: 10px;
+  }
+  .headereditar{
+    margin-right: 20px;
+    margin-left: 10px;
+    height: 10px;
+    font-size: 10px;
+  }
+  .headereliminar{ 
+    margin-left: 10px;
+    height: 10px;
+    font-size: 10px;
+  }
