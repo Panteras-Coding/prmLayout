@@ -57,7 +57,7 @@ function TopGen(){
         </div>
       </div>
 
-      <span className="fas navIconGen fa-cog"></span>
+      <span className="fas navIconGen fa-cog" type="button" data-target="#Popup" data-toggle="modal"  data-target="#exampleModal" ></span>
       <input type="text" id="search" name="search" placeholder="Buscar"></input>
     </div>
 }
