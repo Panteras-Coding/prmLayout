@@ -387,16 +387,16 @@ Recursos Materiales
   padding-top: 50px;
   
 }
-#modal-header-settings {
+.modal-header {
   border-bottom: 0 none;
   background-color: #eceaea;
   color: #dfdfdf;
   height: 59px;
 }
-#modal-body-settings{
+.modal-body{
 height: 400px;
 }
-#modal-footer-settings{
+.modal-footer{
   padding-top: 280px;
   border-top: 1px solid white;
 }

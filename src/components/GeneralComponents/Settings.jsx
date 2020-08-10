@@ -4,7 +4,7 @@ function Settings(){
 return <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg">
             <div class="modal-content">
-            <div class="modal-header" id="modal-header-settings">
+            <div class="modal-header">
                 <nav>
                   <div class="nav nav-tabs" id="nav-tab" role="tablist">
                   <a class="nav-item nav-link disabled" id="nav-conf-tab" data-toggle="tab" href="#nav-conf" role="tab" aria-controls="nav-conf" aria-selected="true">Configuración</a>
@@ -19,7 +19,7 @@ return <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" ari
               </button>
               </div>
               
-              <div class="modal-body" id="modal-body-settings">
+              <div class="modal-body">
               <div class="tab-content" id="nav-tabContent">
                   <div class="tab-pane fade show active" id="nav-areas" role="tabpanel" aria-labelledby="nav-areas-tab">
                   <table>
@@ -33,7 +33,7 @@ return <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" ari
                   </tr>
                 </tbody>
               </table>
-              <div class="modal-footer" id="modal-footer-settings">
+              <div class="modal-footer">
                 <button type="button" class="btn btn-outline-success waves-effect">Agregar Área <i class="fa fa-plus-circle"></i></button>
               </div>
                   </div>
