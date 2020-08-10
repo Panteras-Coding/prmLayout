@@ -413,8 +413,6 @@ height: 400px;
   #nav-conf-tab{
     font-size: 17px;
     width: 200px;
-    
-    
   }
   .headernombre{
     margin-right: 30px;
@@ -444,4 +442,67 @@ height: 400px;
     margin-left: 10px;
     height: 10px;
     font-size: 10px;
+  }
+
+  /*ConfiguraciónMR*/
+  .modalMR{
+    padding-top: 50px;
+    
+  }
+  .modal-header-settingsMR {
+    border-bottom: 0 none;
+    background-color: #eceaea;
+    color: #dfdfdf;
+    height: 40px;
+    width: 600px;
+  }
+  .modal-body-settingsMR{
+    height: 250px;
+    width: 600px;
+    background-color: white;
+  }
+  .modal-footer-settingsMR{
+    padding-top: 280px;
+    border-top: 1px solid white;
+  }
+
+  .elementos {
+    columns: 2;
+    margin: 15px;
+  }
+
+  .btn-primary {
+    display: inline-block;
+    position: absolute;
+    left: 490px;
+    bottom: 20px;
+    padding: 6px 10px;
+    width: 80px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #6886c5;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  .btn-secondary {
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 490px;
+    padding: 5px 10px;
+    width: 80px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 15px;
   }
