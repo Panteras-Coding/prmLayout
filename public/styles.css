@@ -506,3 +506,15 @@ height: 400px;
     border: none;
     border-radius: 15px;
   }
+
+/*Add Modal*/
+
+.addModal{
+  width: 1000px;
+  right: 200px;
+}
+
+.addButton{
+  width: 200px;
+  margin-left: 200px;
+}
