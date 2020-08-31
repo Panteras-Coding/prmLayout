@@ -381,25 +381,30 @@ Recursos Materiales
   margin-top: 25px;
   margin-right: 25px;
 }
+.tablegen{
+
+}
 /*Modal*/
 
-.modal{
+#modal1{
   padding-top: 50px;
   
 }
-.modal-header {
+#cabeza1 {
   border-bottom: 0 none;
   background-color: #eceaea;
   color: #dfdfdf;
   height: 59px;
 }
-.modal-body{
-height: 400px;
+#cuerpo1{
+height: auto;
 }
-.modal-footer{
+#pie1{
   padding-top: 280px;
   border-top: 1px solid white;
 }
+
+
 /*Settings General*/
   .nav-item{
       color:grey;
@@ -517,4 +522,10 @@ height: 400px;
 .addButton{
   width: 200px;
   margin-left: 200px;
+}
+
+
+#agregar{
+ height: 100px;
+
 }
