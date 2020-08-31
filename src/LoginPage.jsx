@@ -66,7 +66,7 @@ class Login extends React.Component{
        return (
           <div className="app">
             <div className="container">
-              Welcome {UserStore.username}
+              Bienvenido {UserStore.username}
               <SubmitButton
                 text={'Log Out'}
                 disabled={false}
